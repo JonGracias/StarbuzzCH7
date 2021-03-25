@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".DrinkCategoryActivity">
 
+    <ListView
+        android:id="@+id/list_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
 </androidx.constraintlayout.widget.ConstraintLayout>
